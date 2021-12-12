@@ -1,0 +1,87 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: hsla(19, 94%, 49%, 0.911);
+  font-family: 'oxygen', sans-serif;
+}
+
+/*HEADER*/
+#header-nav {
+  background-color: #5ccfd3;
+  border-radius: 0;
+  border: 0;
+  height: 100px;
+}
+.navbar-brand {
+  padding: 35px 0 35px;
+}
+.navbar-brand h1 { /*Restaurant Name/Nombre del restaurante*/
+  font-family: 'Lora', serif;
+  font-size: 5.5vw;
+  color: hsla(19, 94%, 49%, 0.911);
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: -20px;
+  margin-top: 0;
+  height: 20px;
+  margin-bottom: 35px;
+  line-height: .60;
+  
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 25px;
+}
+#nav-list a {
+  color: hsla(19, 94%, 49%, 0.911);
+  text-align: center;
+  background-color: #5ccfd3;
+}
+#nav-list a:hover {
+  background-color: rgb(247, 244, 244);
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid hsla(19, 94%, 49%, 0.911)
+}
+.navbar-header button.navbar-toggle {
+  clear: right;
+  margin-top: 20px;
+}
+/*END HEADER*/
+/*MAIN CONTENT*/
+div h2 {
+  text-align: center;
+  font-size: 2em;
+  padding: 20px;
+}
+#chicken, #beef {
+  border: 1px solid purple;
+  background-color: #5ccfd3;
+  margin: 0 auto 15px;
+  padding: 10px
+}
+#sushi {
+  border: 1px solid purple;
+  background-color: #5ccfd3;
+  
+  /*height: 350px;
+  width: 350px;*/
+  padding: 10px;
+  margin: 0 auto 15px;
+
+}
+#chicken h3, #beef h3, #sushi h3 {
+  font-size: 20px;
+  font-family: 'lora' serif;
+  text-align: center;
+}
+#chicken p, #beef p, #sushi p {
+  font-size: 16px;
+  font-family: 'lora' serif;
+  text-align: justify;
+
+}
+
+  
